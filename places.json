@@ -1,0 +1,17 @@
+[
+  {
+    "id": "DTl2v7tknFI",
+    "name": "왐왐커피",
+    "region": "경기",
+    "sub_region": "안산 대부도",
+    "category": "카페",
+    "tags": ["오션뷰", "드라이브"],
+    "memo": "대부도 오션뷰 카페",
+    "kakaomap_url": "https://place.map.kakao.com/...",
+    "instagram_url": "https://www.instagram.com/p/DTl2v7tknFI/",
+    "lat": 37.24,
+    "lng": 126.57,
+    "visited": false,
+    "added_at": "2026-11-24"
+  }
+]
