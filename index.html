@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>장소 아카이브</title>
-  <meta name="theme-color" content="#132440" />
+  <title>wonachive</title>
+  <meta name="theme-color" content="#ffffff" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
@@ -13,10 +13,13 @@
 <body class="view-list">
   <header class="app-header" id="appHeader">
     <div class="header-top">
-      <h1 class="logo">장소 아카이브</h1>
+      <h1 class="logo">wonachive</h1>
       <div class="header-actions">
+        <span class="mode-pill" id="modePill" hidden></span>
         <button class="icon-btn" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-label="메뉴">⋯</button>
         <div class="menu" id="menu" hidden>
+          <button data-menu="settings">설정 (카카오 · 구글 시트)</button>
+          <button data-menu="refresh" data-sheet-only>시트에서 새로 불러오기</button>
           <button data-menu="export">JSON 내보내기</button>
           <button data-menu="import">JSON 가져오기</button>
           <button data-menu="reset" class="danger">브라우저 변경사항 초기화</button>
@@ -25,9 +28,12 @@
     </div>
 
     <div class="search-row">
-      <input type="search" id="searchInput" placeholder="장소명, 메모, 태그 검색" autocomplete="off" />
+      <input type="search" id="searchInput" placeholder="장소명, 메모, 태그, 주소 검색" autocomplete="off" />
       <select id="sortSelect" aria-label="정렬">
         <option value="recent">최근 추가순</option>
+        <option value="near">📍 가까운 순</option>
+        <option value="visited">최근 방문순</option>
+        <option value="rating">별점 높은 순</option>
         <option value="name">이름순</option>
         <option value="region">지역순</option>
       </select>
@@ -68,9 +74,20 @@
 
   <button class="fab" id="addBtn" aria-label="장소 추가">＋</button>
 
+  <!-- 장소 추가 / 수정 -->
   <dialog id="placeDialog">
     <form id="placeForm" method="dialog">
       <h2 id="dialogTitle">장소 추가</h2>
+
+      <div class="kakao-search" id="kakaoSearch">
+        <label for="ksInput">카카오에서 장소 찾기 <small>이름만 넣으면 주소·좌표·링크를 채워요</small></label>
+        <div class="ks-row">
+          <input id="ksInput" type="search" placeholder="예: 왐왐커피 대부도" autocomplete="off" />
+          <button type="button" class="btn kakao" id="ksBtn">검색</button>
+        </div>
+        <p class="ks-msg" id="ksMsg"></p>
+        <ul class="ks-results" id="ksResults"></ul>
+      </div>
 
       <label>장소명 *<input name="name" required /></label>
 
@@ -86,20 +103,79 @@
 
       <label>태그 <small>쉼표로 구분</small><input name="tags" placeholder="오션뷰, 드라이브" /></label>
       <label>메모 (저장한 이유)<textarea name="memo" rows="2"></textarea></label>
-      <label>카카오맵 URL<input name="kakaomap_url" type="url" placeholder="https://place.map.kakao.com/..." /></label>
       <label>인스타그램 URL<input name="instagram_url" type="url" placeholder="https://www.instagram.com/p/..." /></label>
+      <label>카카오맵 URL<input name="kakaomap_url" type="url" placeholder="https://place.map.kakao.com/..." /></label>
+
+      <label>주소 <small>카카오맵에 뜨는 주소를 그대로 붙여 넣어도 돼요</small>
+        <input name="address" placeholder="경기 시흥시 은계번영길 11 은계프라자 305호" />
+      </label>
+      <div class="geo-actions">
+        <button type="button" class="btn subtle" id="geocodeBtn">주소로 좌표 찾기</button>
+        <button type="button" class="btn insta" id="pickBtn">지도에서 직접 찍기</button>
+        <span class="geo-status" id="geoStatus"></span>
+      </div>
+      <div id="pickMap" class="pick-map" hidden></div>
 
       <div class="form-row">
         <label>위도<input name="lat" type="number" step="any" placeholder="37.24" /></label>
         <label>경도<input name="lng" type="number" step="any" placeholder="126.57" /></label>
       </div>
-      <p class="hint">좌표가 있어야 지도에 표시돼요. 카카오맵에서 장소를 우클릭 → ‘이 위치의 좌표’ 등으로 확인할 수 있어요.</p>
-
-      <label class="check"><input type="checkbox" name="visited" /> 가본 곳</label>
+      <p class="hint">좌표가 있어야 지도와 ‘가까운 순’에 나와요. 위치가 어긋나면 지도에서 핀을 끌어 옮겨 주세요.</p>
 
       <div class="dialog-actions">
-        <button type="button" value="cancel" id="cancelBtn" class="ghost">취소</button>
-        <button type="submit" value="save" class="primary">저장</button>
+        <button type="button" id="cancelBtn" class="ghost">취소</button>
+        <button type="submit" class="primary">저장</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- 방문 기록 -->
+  <dialog id="visitDialog">
+    <form id="visitForm" method="dialog">
+      <h2>방문 기록</h2>
+      <p class="visit-place" id="visitPlace"></p>
+      <label>방문한 날<input type="date" name="visited_at" required /></label>
+      <div class="field">
+        <span class="field-label">별점 <small>다시 누르면 지워져요</small></span>
+        <div class="star-input" id="starInput" role="radiogroup" aria-label="별점">
+          <button type="button" data-star="1" aria-label="1점">★</button>
+          <button type="button" data-star="2" aria-label="2점">★</button>
+          <button type="button" data-star="3" aria-label="3점">★</button>
+          <button type="button" data-star="4" aria-label="4점">★</button>
+          <button type="button" data-star="5" aria-label="5점">★</button>
+        </div>
+        <input type="hidden" name="rating" />
+      </div>
+      <label>한 줄 후기<input name="review" maxlength="100" placeholder="예: 노을 질 때 창가 자리 최고" /></label>
+      <div class="dialog-actions">
+        <button type="button" id="unvisitBtn" class="ghost warn-text" hidden>가볼 곳으로 되돌리기</button>
+        <span class="spacer"></span>
+        <button type="button" id="visitCancel" class="ghost">닫기</button>
+        <button type="submit" class="primary">저장</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- 설정 -->
+  <dialog id="settingsDialog">
+    <form id="settingsForm" method="dialog">
+      <h2>설정</h2>
+      <section class="settings-sec">
+        <h3>카카오 장소 검색</h3>
+        <label>JavaScript 키 <small>config.js에 넣어 두었다면 비워 두세요</small><input name="kakaoKey" autocomplete="off" /></label>
+      </section>
+      <section class="settings-sec">
+        <h3>구글 시트 동기화</h3>
+        <label>Apps Script 웹 앱 URL <small>config.js에 넣어 두었다면 비워 두세요</small><input name="sheetUrl" type="url" autocomplete="off" placeholder="https://script.google.com/macros/s/.../exec" /></label>
+        <label>비밀번호 <small>Apps Script 코드의 TOKEN과 똑같이</small><input name="token" type="password" autocomplete="off" /></label>
+        <p class="hint">비밀번호는 이 기기 브라우저에만 저장돼요. 휴대폰·PC에서 한 번씩 넣어 주세요. 비밀번호가 없는 기기는 보기만 할 수 있어요.</p>
+      </section>
+      <p class="settings-status" id="settingsStatus"></p>
+      <div class="dialog-actions">
+        <button type="button" id="settingsTest" class="ghost">연결 확인</button>
+        <span class="spacer"></span>
+        <button type="button" id="settingsClose" class="ghost">닫기</button>
+        <button type="submit" class="primary">저장</button>
       </div>
     </form>
   </dialog>
@@ -107,6 +183,7 @@
   <input type="file" id="importInput" accept="application/json,.json" hidden />
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+  <script src="config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
   <script src="app.js" defer></script>
 </body>
