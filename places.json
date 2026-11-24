@@ -1,16 +1,1406 @@
 [
   {
+    "id": "DW_IMnvIpJZ",
+    "name": "스시코우지",
+    "region": "서울",
+    "sub_region": "강남 도산대로",
+    "category": "밥집",
+    "tags": [
+      "오마카세",
+      "스시",
+      "기념일"
+    ],
+    "memo": "디너 오마카세 28만원, 캐치테이블 예약",
+    "address": "서울 강남구 도산대로 318 SB타워 어넥스 B동 3층",
+    "kakaomap_url": "https://place.map.kakao.com/23829251",
+    "instagram_url": "https://www.instagram.com/p/DW_IMnvIpJZ/",
+    "lat": 37.521842,
+    "lng": 127.036895,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "DJbRkA2R5eI-6",
+    "name": "북앤레스트",
+    "region": "서울",
+    "sub_region": "강남 삼성동",
+    "category": "도서관/작업",
+    "tags": [
+      "북카페",
+      "낮잠",
+      "모음"
+    ],
+    "memo": "낮잠 가능한 도심 북카페 · 책과 쉼 공간 7곳 모음",
+    "address": "서울 강남구 삼성로104길 22 예림빌딩 1층",
+    "kakaomap_url": "https://place.map.kakao.com/2017883438",
+    "instagram_url": "https://www.instagram.com/p/DJbRkA2R5eI/",
+    "lat": 37.510951,
+    "lng": 127.056553,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DJbRkA2R5eI-1",
+    "name": "광진교8번가",
+    "region": "서울",
+    "sub_region": "강동 천호",
+    "category": "도서관/작업",
+    "tags": [
+      "한강뷰",
+      "북카페",
+      "모음"
+    ],
+    "memo": "한강 위에 누워 책 읽는 공간 · 책과 쉼 공간 7곳 모음",
+    "address": "서울 강동구 구천면로 77",
+    "kakaomap_url": "https://place.map.kakao.com/11970493",
+    "instagram_url": "https://www.instagram.com/p/DJbRkA2R5eI/",
+    "lat": 37.544499,
+    "lng": 127.114187,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DKO8JOPpu5P",
+    "name": "서울시립사진미술관",
+    "region": "서울",
+    "sub_region": "도봉 창동",
+    "category": "전시/문화",
+    "tags": [
+      "사진",
+      "미술관",
+      "창동"
+    ],
+    "memo": "국내 첫 사진 전문 공립 미술관, 화~금 10:00~20:00",
+    "address": "서울 도봉구 마들로13길 68",
+    "kakaomap_url": "https://place.map.kakao.com/1061613834",
+    "instagram_url": "https://www.instagram.com/p/DKO8JOPpu5P/",
+    "lat": 37.655515,
+    "lng": 127.048947,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C3pqPVjPSYr-6",
+    "name": "신보 서울",
+    "region": "서울",
+    "sub_region": "동대문 회기",
+    "category": "카페",
+    "tags": [
+      "개축",
+      "회기",
+      "모음"
+    ],
+    "memo": "회기동 개축 카페 · 서울 개축 카페 8곳 모음",
+    "address": "서울 동대문구 회기로25길 101-13",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/C3pqPVjPSYr/",
+    "lat": 37.594561,
+    "lng": 127.057662,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Cuqmv9FJ-AJ-3",
+    "name": "채그로",
+    "region": "서울",
+    "sub_region": "마포 공덕",
+    "category": "도서관/작업",
+    "tags": [
+      "북카페",
+      "한강뷰",
+      "모음"
+    ],
+    "memo": "마포 북카페, 한강 노을 뷰 · 서울 작업 공간 7곳 모음",
+    "address": "서울 마포구 마포대로4다길 31",
+    "kakaomap_url": "https://place.map.kakao.com/510787092",
+    "instagram_url": "https://www.instagram.com/p/Cuqmv9FJ-AJ/",
+    "lat": 37.535651,
+    "lng": 126.944269,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Cuqmv9FJ-AJ-1",
+    "name": "타이프 한강",
+    "region": "서울",
+    "sub_region": "마포 서강",
+    "category": "도서관/작업",
+    "tags": [
+      "한강뷰",
+      "작업공간",
+      "모음"
+    ],
+    "memo": "한강 파노라마 뷰 작업 카페 · 서울 작업 공간 7곳 모음",
+    "address": "서울 마포구 토정로 128 서강8경빌딩 5층",
+    "kakaomap_url": "https://place.map.kakao.com/2001197337",
+    "instagram_url": "https://www.instagram.com/p/Cuqmv9FJ-AJ/",
+    "lat": 37.544935,
+    "lng": 126.925339,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C3pqPVjPSYr-1",
+    "name": "문화비축기지 TANK6",
+    "region": "서울",
+    "sub_region": "마포 성산동",
+    "category": "카페",
+    "tags": [
+      "개축",
+      "한강뷰",
+      "문화공간",
+      "모음"
+    ],
+    "memo": "옛 석유비축기지를 개조한 카페·문화공간 · 서울 개축 카페 8곳 모음",
+    "address": "서울 마포구 증산로 87",
+    "kakaomap_url": "https://place.map.kakao.com/27459153",
+    "instagram_url": "https://www.instagram.com/p/C3pqPVjPSYr/",
+    "lat": 37.571076,
+    "lng": 126.894237,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C3pqPVjPSYr-8",
+    "name": "앤트러사이트 합정",
+    "region": "서울",
+    "sub_region": "마포 합정",
+    "category": "카페",
+    "tags": [
+      "개축",
+      "합정",
+      "로스터리",
+      "모음"
+    ],
+    "memo": "합정 개축 카페 · 서울 개축 카페 8곳 모음",
+    "address": "서울 마포구 토정로5길 10",
+    "kakaomap_url": "https://place.map.kakao.com/12518512",
+    "instagram_url": "https://www.instagram.com/p/C3pqPVjPSYr/",
+    "lat": 37.545814,
+    "lng": 126.918435,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DXWhO_TEp9e",
+    "name": "우드코티지",
+    "region": "서울",
+    "sub_region": "서대문 연희동",
+    "category": "카페",
+    "tags": [
+      "한적",
+      "연희동"
+    ],
+    "memo": "연희동 한적한 카페",
+    "address": "서울 서대문구 성산로 325",
+    "kakaomap_url": "https://place.map.kakao.com/807018622",
+    "instagram_url": "https://www.instagram.com/p/DXWhO_TEp9e/",
+    "lat": 37.566434,
+    "lng": 126.926483,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "DVabYMggUc0",
+    "name": "서울 데이트 코스(양화한강공원·올림픽공원·성수구름다리)",
+    "region": "서울",
+    "sub_region": "서울 전역",
+    "category": "데이트",
+    "tags": [
+      "모음",
+      "피크닉",
+      "노을"
+    ],
+    "memo": "모음 게시물 — 따릉이·피크닉·노을 코스 3곳(좌표는 양화한강공원 기준)",
+    "address": "서울 영등포구 노들로 221",
+    "kakaomap_url": "https://place.map.kakao.com/8143124",
+    "instagram_url": "https://www.instagram.com/p/DVabYMggUc0/",
+    "lat": 37.537808,
+    "lng": 126.902938,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "Cc9JzZttzPL",
+    "name": "서울 복합문화공간 18곳",
+    "region": "서울",
+    "sub_region": "서울 전역",
+    "category": "전시/문화",
+    "tags": [
+      "모음",
+      "복합문화공간",
+      "데이트"
+    ],
+    "memo": "모음 게시물 — 서울 복합문화공간 18곳(좌표는 서울시청 기준)",
+    "address": "서울 전역",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/Cc9JzZttzPL/",
+    "lat": 37.566824,
+    "lng": 126.978652,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "CcnXhhiqGSc",
+    "name": "서울 원데이클래스·공방 모음",
+    "region": "서울",
+    "sub_region": "서울 전역",
+    "category": "공방",
+    "tags": [
+      "모음",
+      "원데이클래스",
+      "공방"
+    ],
+    "memo": "모음 게시물 — 서울 공방·원데이클래스 데이트(좌표는 서울시청 기준)",
+    "address": "서울 전역",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CcnXhhiqGSc/",
+    "lat": 37.566824,
+    "lng": 126.978652,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "DY6KVJuj_39",
+    "name": "실내 데이트 스폿 24 (잇잇매거진)",
+    "region": "서울",
+    "sub_region": "서울 전역",
+    "category": "데이트",
+    "tags": [
+      "모음",
+      "실내데이트"
+    ],
+    "memo": "모음 게시물 — 실내 데이트 스폿 24곳(개별 장소는 카드 이미지 표기, 좌표는 서울시청 기준)",
+    "address": "서울 전역",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/DY6KVJuj_39/",
+    "lat": 37.566824,
+    "lng": 126.978652,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "CvGpf9GpBFi",
+    "name": "서초구립 방배숲환경도서관",
+    "region": "서울",
+    "sub_region": "서초 방배동",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "숲",
+      "친환경"
+    ],
+    "memo": "서리풀공원 숲속 도서관, 중정 잔디뷰",
+    "address": "서울 서초구 서초대로 160-7",
+    "kakaomap_url": "https://place.map.kakao.com/496228561",
+    "instagram_url": "https://www.instagram.com/p/CvGpf9GpBFi/",
+    "lat": 37.488962,
+    "lng": 127.000051,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C70q_XlJ6vv",
+    "name": "오디움(Audeum) 오디오 박물관",
+    "region": "서울",
+    "sub_region": "서초 신원동",
+    "category": "전시/문화",
+    "tags": [
+      "오디오박물관",
+      "건축",
+      "사전예약"
+    ],
+    "memo": "쿠마 켄고·하라 켄야 설계 오디오 박물관, 사전예약제",
+    "address": "서울 서초구 헌릉로8길 6",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/C70q_XlJ6vv/",
+    "lat": 37.456668,
+    "lng": 127.058918,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Cuqmv9FJ-AJ-5",
+    "name": "세컨브레스",
+    "region": "서울",
+    "sub_region": "서초 양재",
+    "category": "도서관/작업",
+    "tags": [
+      "양재천",
+      "작업공간",
+      "모음"
+    ],
+    "memo": "양재천 숲뷰 작업 카페 · 서울 작업 공간 7곳 모음",
+    "address": "서울 서초구 양재천로 95-2 1층",
+    "kakaomap_url": "https://place.map.kakao.com/1682813716",
+    "instagram_url": "https://www.instagram.com/p/Cuqmv9FJ-AJ/",
+    "lat": 37.476104,
+    "lng": 127.039747,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DY7LDA0zxyr",
+    "name": "성수구름다리",
+    "region": "서울",
+    "sub_region": "성동 성수",
+    "category": "데이트",
+    "tags": [
+      "야경",
+      "산책",
+      "성수"
+    ],
+    "memo": "성수 보행교, 조명·꽃 조성 후 야경 스팟",
+    "address": "서울 성동구 성수동1가 642-13",
+    "kakaomap_url": "https://place.map.kakao.com/672261484",
+    "instagram_url": "https://www.instagram.com/p/DY7LDA0zxyr/",
+    "lat": 37.538028,
+    "lng": 127.042317,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C3pqPVjPSYr-7",
+    "name": "어니언 성수",
+    "region": "서울",
+    "sub_region": "성동 성수",
+    "category": "카페",
+    "tags": [
+      "개축",
+      "성수",
+      "베이커리",
+      "모음"
+    ],
+    "memo": "창고를 개조한 성수 카페 · 서울 개축 카페 8곳 모음",
+    "address": "서울 성동구 아차산로9길 8",
+    "kakaomap_url": "https://place.map.kakao.com/145791269",
+    "instagram_url": "https://www.instagram.com/p/C3pqPVjPSYr/",
+    "lat": 37.544761,
+    "lng": 127.058199,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DIJCUN6JmuM-3",
+    "name": "오동숲속도서관",
+    "region": "서울",
+    "sub_region": "성북 하월곡",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "숲",
+      "건축",
+      "모음"
+    ],
+    "memo": "달팽이 지붕 숲속 도서관 · 서울 독서 공간 7곳 모음",
+    "address": "서울 성북구 화랑로13가길 110-10",
+    "kakaomap_url": "https://place.map.kakao.com/750966461",
+    "instagram_url": "https://www.instagram.com/p/DIJCUN6JmuM/",
+    "lat": 37.610157,
+    "lng": 127.040953,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DIJCUN6JmuM-6",
+    "name": "송파책박물관",
+    "region": "서울",
+    "sub_region": "송파 가락동",
+    "category": "전시/문화",
+    "tags": [
+      "박물관",
+      "책",
+      "모음"
+    ],
+    "memo": "국내 첫 공립 책 박물관 · 서울 독서 공간 7곳 모음",
+    "address": "서울 송파구 송파대로37길 77",
+    "kakaomap_url": "https://place.map.kakao.com/1120827020",
+    "instagram_url": "https://www.instagram.com/p/DIJCUN6JmuM/",
+    "lat": 37.498886,
+    "lng": 127.104385,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DWgVQwkDL-b",
+    "name": "올림픽공원",
+    "region": "서울",
+    "sub_region": "송파 방이동",
+    "category": "데이트",
+    "tags": [
+      "산책",
+      "피크닉",
+      "버스킹"
+    ],
+    "memo": "올림픽공원 — 피크닉·산책·즉흥 버스킹",
+    "address": "서울 송파구 올림픽로 424",
+    "kakaomap_url": "https://place.map.kakao.com/8023565",
+    "instagram_url": "https://www.instagram.com/p/DWgVQwkDL-b/",
+    "lat": 37.520534,
+    "lng": 127.120813,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "DJbRkA2R5eI-2",
+    "name": "아크앤북 TP타워여의도점",
+    "region": "서울",
+    "sub_region": "영등포 여의도",
+    "category": "도서관/작업",
+    "tags": [
+      "서점",
+      "북카페",
+      "쪽잠",
+      "모음"
+    ],
+    "memo": "'쪽잠 공간'이 있는 복합문화공간 · 책과 쉼 공간 7곳 모음",
+    "address": "서울 영등포구 의사당대로 96 TPTower B2층",
+    "kakaomap_url": "https://place.map.kakao.com/353916119",
+    "instagram_url": "https://www.instagram.com/p/DJbRkA2R5eI/",
+    "lat": 37.521548,
+    "lng": 126.922942,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DJbRkA2R5eI-3",
+    "name": "전쟁기념관 도서관",
+    "region": "서울",
+    "sub_region": "용산 이태원",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "남산뷰",
+      "모음"
+    ],
+    "memo": "남산타워 뷰 도서관 · 책과 쉼 공간 7곳 모음",
+    "address": "서울 용산구 이태원로 29",
+    "kakaomap_url": "https://place.map.kakao.com/2049233930",
+    "instagram_url": "https://www.instagram.com/p/DJbRkA2R5eI/",
+    "lat": 37.537039,
+    "lng": 126.977833,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C3pqPVjPSYr-2",
+    "name": "마하 한남",
+    "region": "서울",
+    "sub_region": "용산 한남동",
+    "category": "카페",
+    "tags": [
+      "개축",
+      "한남동",
+      "모음"
+    ],
+    "memo": "한남동 개축 카페 · 서울 개축 카페 8곳 모음",
+    "address": "서울 용산구 서빙고로91나길 85",
+    "kakaomap_url": "https://place.map.kakao.com/1910390625",
+    "instagram_url": "https://www.instagram.com/p/C3pqPVjPSYr/",
+    "lat": 37.524493,
+    "lng": 126.996088,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DJbRkA2R5eI-5",
+    "name": "북파크라운지",
+    "region": "서울",
+    "sub_region": "용산 한남동",
+    "category": "도서관/작업",
+    "tags": [
+      "북카페",
+      "프라이빗",
+      "모음"
+    ],
+    "memo": "블루스퀘어 3층 무제한 북카페 · 책과 쉼 공간 7곳 모음",
+    "address": "서울 용산구 이태원로 294 블루스퀘어 3층",
+    "kakaomap_url": "https://place.map.kakao.com/1559187561",
+    "instagram_url": "https://www.instagram.com/p/DJbRkA2R5eI/",
+    "lat": 37.540958,
+    "lng": 127.002516,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DIJCUN6JmuM-1",
+    "name": "현대카드 아트 라이브러리",
+    "region": "서울",
+    "sub_region": "용산 한남동",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "예술서적",
+      "모음"
+    ],
+    "memo": "한강진역 예술 서적 도서관 · 서울 독서 공간 7곳 모음",
+    "address": "서울 용산구 이태원로 248 2층",
+    "kakaomap_url": "https://place.map.kakao.com/2045841596",
+    "instagram_url": "https://www.instagram.com/p/DIJCUN6JmuM/",
+    "lat": 37.53681,
+    "lng": 127.000864,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Cuqmv9FJ-AJ-2",
+    "name": "후암연립",
+    "region": "서울",
+    "sub_region": "용산 후암동",
+    "category": "도서관/작업",
+    "tags": [
+      "남산뷰",
+      "작업공간",
+      "모음"
+    ],
+    "memo": "남산타워 뷰 작업 공간 · 서울 작업 공간 7곳 모음",
+    "address": "서울 용산구 두텁바위로1가길 47",
+    "kakaomap_url": "https://place.map.kakao.com/775337141",
+    "instagram_url": "https://www.instagram.com/p/Cuqmv9FJ-AJ/",
+    "lat": 37.54844,
+    "lng": 126.976234,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DX_y4lIEm2O",
+    "name": "제비꽃다방",
+    "region": "서울",
+    "sub_region": "종로 부암동",
+    "category": "카페",
+    "tags": [
+      "초록뷰",
+      "조용",
+      "부암동"
+    ],
+    "memo": "부암동 초록뷰 조용한 카페",
+    "address": "서울 종로구 창의문로 146",
+    "kakaomap_url": "https://place.map.kakao.com/24944966",
+    "instagram_url": "https://www.instagram.com/p/DX_y4lIEm2O/",
+    "lat": 37.592952,
+    "lng": 126.964466,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "DIJCUN6JmuM-2",
+    "name": "현대카드 디자인 라이브러리",
+    "region": "서울",
+    "sub_region": "종로 북촌",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "디자인",
+      "모음"
+    ],
+    "memo": "북촌 디자인 서적 도서관(구글 임시휴업 표기) · 서울 독서 공간 7곳 모음",
+    "address": "서울 종로구 북촌로 31-18",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/DIJCUN6JmuM/",
+    "lat": 37.579739,
+    "lng": 126.983975,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DIJCUN6JmuM-7",
+    "name": "국립현대미술관 서울 디지털도서관",
+    "region": "서울",
+    "sub_region": "종로 삼청동",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "미술",
+      "모음"
+    ],
+    "memo": "MMCA 서울관 내 현대미술 도서관 · 서울 독서 공간 7곳 모음",
+    "address": "서울 종로구 삼청로 30",
+    "kakaomap_url": "https://place.map.kakao.com/17952661",
+    "instagram_url": "https://www.instagram.com/p/DIJCUN6JmuM/",
+    "lat": 37.578627,
+    "lng": 126.980098,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Cuqmv9FJ-AJ-4",
+    "name": "텅",
+    "region": "서울",
+    "sub_region": "종로 안국",
+    "category": "도서관/작업",
+    "tags": [
+      "궁뷰",
+      "작업공간",
+      "모음"
+    ],
+    "memo": "창덕궁·인왕산 뷰 작업 카페 · 서울 작업 공간 7곳 모음",
+    "address": "서울 종로구 율곡로 82 701호",
+    "kakaomap_url": "https://place.map.kakao.com/253722326",
+    "instagram_url": "https://www.instagram.com/p/Cuqmv9FJ-AJ/",
+    "lat": 37.577189,
+    "lng": 126.988161,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DIJCUN6JmuM-5",
+    "name": "청운문학도서관",
+    "region": "서울",
+    "sub_region": "종로 청운동",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "한옥",
+      "모음"
+    ],
+    "memo": "한옥 도서관, 인왕산 뷰 · 서울 독서 공간 7곳 모음",
+    "address": "서울 종로구 자하문로36길 40",
+    "kakaomap_url": "https://place.map.kakao.com/26186384",
+    "instagram_url": "https://www.instagram.com/p/DIJCUN6JmuM/",
+    "lat": 37.590404,
+    "lng": 126.965905,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C3pqPVjPSYr-3",
+    "name": "더스팟 패뷸러스",
+    "region": "서울",
+    "sub_region": "중구 명동",
+    "category": "카페",
+    "tags": [
+      "개축",
+      "명동",
+      "모음"
+    ],
+    "memo": "명동 개축 카페(옛 계란 직판장) · 서울 개축 카페 8곳 모음",
+    "address": "서울 중구 명동2길 22",
+    "kakaomap_url": "https://place.map.kakao.com/87323834",
+    "instagram_url": "https://www.instagram.com/p/C3pqPVjPSYr/",
+    "lat": 37.562332,
+    "lng": 126.982601,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DJbRkA2R5eI-4",
+    "name": "손기정문화도서관",
+    "region": "서울",
+    "sub_region": "중구 손기정공원",
+    "category": "도서관/작업",
+    "tags": [
+      "도서관",
+      "감성",
+      "모음"
+    ],
+    "memo": "손기정공원 내 도서관 · 책과 쉼 공간 7곳 모음",
+    "address": "서울 중구 손기정로 101-3",
+    "kakaomap_url": "https://place.map.kakao.com/559480223",
+    "instagram_url": "https://www.instagram.com/p/DJbRkA2R5eI/",
+    "lat": 37.555919,
+    "lng": 126.964531,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Cuqmv9FJ-AJ-6",
+    "name": "커피앤시가렛",
+    "region": "서울",
+    "sub_region": "중구 시청",
+    "category": "도서관/작업",
+    "tags": [
+      "시티뷰",
+      "작업공간",
+      "모음"
+    ],
+    "memo": "17층 시티뷰 작업 카페 · 서울 작업 공간 7곳 모음",
+    "address": "서울 중구 서소문로 116 유원빌딩 17층",
+    "kakaomap_url": "https://place.map.kakao.com/1198183678",
+    "instagram_url": "https://www.instagram.com/p/Cuqmv9FJ-AJ/",
+    "lat": 37.562782,
+    "lng": 126.97409,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "C3pqPVjPSYr-4",
+    "name": "레레플레이",
+    "region": "서울",
+    "sub_region": "중구 을지로",
+    "category": "카페",
+    "tags": [
+      "개축",
+      "을지로",
+      "모음"
+    ],
+    "memo": "퇴계로81길 개축 카페(구글 임시휴업 표기) · 서울 개축 카페 8곳 모음",
+    "address": "서울 중구 퇴계로81길 14-6",
+    "kakaomap_url": "https://place.map.kakao.com/598132087",
+    "instagram_url": "https://www.instagram.com/p/C3pqPVjPSYr/",
+    "lat": 37.56632,
+    "lng": 127.018325,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DgB27rFkjX8",
+    "name": "라이팅룸",
+    "region": "서울",
+    "sub_region": "중구 충무로",
+    "category": "데이트",
+    "tags": [
+      "편지쓰기",
+      "실내데이트",
+      "이색공간"
+    ],
+    "memo": "편지 쓰는 공간, 이색 데이트 장소(화~일 14:00~18:00)",
+    "address": "서울 중구 퇴계로27길 40 예일빌딩 4층",
+    "kakaomap_url": "https://place.map.kakao.com/286919534",
+    "instagram_url": "https://www.instagram.com/p/DgB27rFkjX8/",
+    "lat": 37.562943,
+    "lng": 126.991398,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "CWlAHRoDhHg",
+    "name": "현대백화점 판교점",
+    "region": "경기",
+    "sub_region": "성남 분당 판교",
+    "category": "기타",
+    "tags": [
+      "크리스마스",
+      "포토스팟",
+      "백화점"
+    ],
+    "memo": "크리스마스 장식·H빌리지 판교 포토스팟",
+    "address": "경기 성남시 분당구 판교역로146번길 20",
+    "kakaomap_url": "https://place.map.kakao.com/27572094",
+    "instagram_url": "https://www.instagram.com/p/CWlAHRoDhHg/",
+    "lat": 37.392797,
+    "lng": 127.112048,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
     "id": "DTl2v7tknFI",
     "name": "왐왐커피",
     "region": "경기",
     "sub_region": "안산 대부도",
     "category": "카페",
-    "tags": ["오션뷰", "드라이브"],
-    "memo": "대부도 오션뷰 카페",
-    "kakaomap_url": "https://place.map.kakao.com/...",
+    "tags": [
+      "오션뷰",
+      "드라이브",
+      "일몰"
+    ],
+    "memo": "대부도 오션뷰 카페, 일몰 시간대 추천",
+    "address": "경기 안산시 단원구 구봉길 102-26 2층",
+    "kakaomap_url": "https://place.map.kakao.com/1187755326",
     "instagram_url": "https://www.instagram.com/p/DTl2v7tknFI/",
-    "lat": 37.24,
-    "lng": 126.57,
+    "lat": 37.276868,
+    "lng": 126.560147,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DaNC5SsxgvU",
+    "name": "에스파이브시티 1층 말랑이샵",
+    "region": "인천",
+    "sub_region": "연수 송도",
+    "category": "기타",
+    "tags": [
+      "스퀴시",
+      "말랑이",
+      "송도"
+    ],
+    "memo": "송도 에스파이브시티 1층 말랑이·스퀴시 샵(상호 미확인)",
+    "address": "인천 연수구 첨단대로 40",
+    "kakaomap_url": "https://place.map.kakao.com/664307757",
+    "instagram_url": "https://www.instagram.com/p/DaNC5SsxgvU/",
+    "lat": 37.369725,
+    "lng": 126.650378,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "CUtWdkBv_lg",
+    "name": "명지 카페 모음",
+    "region": "부산",
+    "sub_region": "강서 명지동",
+    "category": "카페",
+    "tags": [
+      "모음",
+      "명지",
+      "카페"
+    ],
+    "memo": "모음 게시물 — 부산 명지동 카페 모음(좌표는 명지동 기준)",
+    "address": "부산 강서구 명지동",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CUtWdkBv_lg/",
+    "lat": 35.10668,
+    "lng": 128.915172,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "B4lgUSZDTv7",
+    "name": "메종드다월",
+    "region": "부산",
+    "sub_region": "금정 부곡동",
+    "category": "카페",
+    "tags": [
+      "디저트",
+      "딸기",
+      "부산대"
+    ],
+    "memo": "부산대·부곡동 딸기 디저트 카페",
+    "address": "부산 금정구 중앙대로1719번길 20-14",
+    "kakaomap_url": "https://place.map.kakao.com/27463622",
+    "instagram_url": "https://www.instagram.com/p/B4lgUSZDTv7/",
+    "lat": 35.238512,
+    "lng": 129.091118,
+    "visited": false,
+    "added_at": "2026-11-16"
+  },
+  {
+    "id": "B6qfeXUDlDp",
+    "name": "블루그로토",
+    "region": "부산",
+    "sub_region": "금정 부산대",
+    "category": "카페",
+    "tags": [
+      "브런치",
+      "커피",
+      "부산대"
+    ],
+    "memo": "부산대 앞 브런치·커피, 11:00~21:00",
+    "address": "부산 금정구 장전온천천로73번길 14",
+    "kakaomap_url": "https://place.map.kakao.com/1289854609",
+    "instagram_url": "https://www.instagram.com/p/B6qfeXUDlDp/",
+    "lat": 35.23177,
+    "lng": 129.088071,
+    "visited": false,
+    "added_at": "2026-11-16"
+  },
+  {
+    "id": "CFLoNyKHVc4",
+    "name": "부산대 데이트 코스 모음",
+    "region": "부산",
+    "sub_region": "금정 장전동",
+    "category": "데이트",
+    "tags": [
+      "모음",
+      "부산대",
+      "데이트"
+    ],
+    "memo": "모음 게시물 — 체크온·바첼커피·카페어리브·술화당 등 부산대 데이트 코스(좌표는 장전동 기준)",
+    "address": "부산 금정구 장전동",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CFLoNyKHVc4/",
+    "lat": 35.234716,
+    "lng": 129.072492,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "B2h7KpqAviM",
+    "name": "노씨아지매",
+    "region": "부산",
+    "sub_region": "기장 해녀촌",
+    "category": "밥집",
+    "tags": [
+      "해산물",
+      "기장",
+      "해녀촌"
+    ],
+    "memo": "기장 해녀촌 해산물 상차림, 09:00~19:00",
+    "address": "부산 기장군 기장읍 연화1길 184",
+    "kakaomap_url": "https://place.map.kakao.com/474224435",
+    "instagram_url": "https://www.instagram.com/p/B2h7KpqAviM/",
+    "lat": 35.21838,
+    "lng": 129.228083,
+    "visited": false,
+    "added_at": "2026-11-16"
+  },
+  {
+    "id": "DHM2fR0SfBT-3",
+    "name": "레이지모먼트커피스탠드",
+    "region": "부산",
+    "sub_region": "동래 수안동",
+    "category": "카페",
+    "tags": [
+      "커피",
+      "수안동",
+      "모음"
+    ],
+    "memo": "수안동 커피스탠드, 11:00~20:00·수 휴무 · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 동래구 온천천로285번길 19",
+    "kakaomap_url": "https://place.map.kakao.com/963219463",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.196164,
+    "lng": 129.085739,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Ccb3o3XPMZK",
+    "name": "부산 대형카페 20곳",
+    "region": "부산",
+    "sub_region": "부산 전역",
+    "category": "카페",
+    "tags": [
+      "모음",
+      "대형카페"
+    ],
+    "memo": "모음 게시물 — 부산 대형카페 20곳(좌표는 부산시청 기준)",
+    "address": "부산 전역",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/Ccb3o3XPMZK/",
+    "lat": 35.179737,
+    "lng": 129.075068,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "CdIZalGDowK",
+    "name": "부산 데이트 36곳 총정리",
+    "region": "부산",
+    "sub_region": "부산 전역",
+    "category": "데이트",
+    "tags": [
+      "모음",
+      "부산여행",
+      "데이트"
+    ],
+    "memo": "모음 게시물 — 데이트하기 좋은 부산 36곳(좌표는 부산시청 기준)",
+    "address": "부산 전역",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CdIZalGDowK/",
+    "lat": 35.179737,
+    "lng": 129.075068,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Cb64TafMrsK",
+    "name": "부산 숲속카페 모음",
+    "region": "부산",
+    "sub_region": "부산 전역",
+    "category": "카페",
+    "tags": [
+      "모음",
+      "숲속",
+      "카페"
+    ],
+    "memo": "모음 게시물 — 카페소록·더팜471·웨스틴챔버·브레이크인커피·파나카F·카페만디·프루터리포레스트 등(좌표는 부산시청 기준)",
+    "address": "부산 전역",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/Cb64TafMrsK/",
+    "lat": 35.179737,
+    "lng": 129.075068,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Bzr3166FXQi",
+    "name": "런닝맨 부산점",
+    "region": "부산",
+    "sub_region": "부산진 서면",
+    "category": "전시/문화",
+    "tags": [
+      "체험관",
+      "실내",
+      "서면"
+    ],
+    "memo": "서면 런닝맨 체험관, 10:00~20:00",
+    "address": "부산 부산진구 중앙대로 672",
+    "kakaomap_url": "https://place.map.kakao.com/846455862",
+    "instagram_url": "https://www.instagram.com/p/Bzr3166FXQi/",
+    "lat": 35.153014,
+    "lng": 129.059607,
+    "visited": false,
+    "added_at": "2026-11-16"
+  },
+  {
+    "id": "DHM2fR0SfBT-4",
+    "name": "열람실",
+    "region": "부산",
+    "sub_region": "부산진 전포",
+    "category": "도서관/작업",
+    "tags": [
+      "북카페",
+      "전포",
+      "혼자",
+      "모음"
+    ],
+    "memo": "전포 북카페형 공간, 11:00~21:00·월 휴무 · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 부산진구 황령대로74번길 27 4층",
+    "kakaomap_url": "https://place.map.kakao.com/1369886397",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.148541,
+    "lng": 129.067582,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DHM2fR0SfBT-6",
+    "name": "우마이미세 서면점",
+    "region": "부산",
+    "sub_region": "부산진 전포",
+    "category": "밥집",
+    "tags": [
+      "일식",
+      "전포",
+      "모음"
+    ],
+    "memo": "일식집, 11:30~21:00(브레이크 15~17시) · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 부산진구 동성로25번길 16 1층",
+    "kakaomap_url": "https://place.map.kakao.com/1087035052",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.152813,
+    "lng": 129.067581,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DHM2fR0SfBT-7",
+    "name": "유월커피",
+    "region": "부산",
+    "sub_region": "부산진 전포",
+    "category": "카페",
+    "tags": [
+      "커피",
+      "전포",
+      "모음"
+    ],
+    "memo": "전포 커피집, 11:00~22:00·일 휴무 · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 부산진구 서전로58번길 86",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.15389,
+    "lng": 129.065998,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "B4_kgDlJ4Xu",
+    "name": "이터널선샤인",
+    "region": "부산",
+    "sub_region": "부산진 전포",
+    "category": "카페",
+    "tags": [
+      "수플레팬케이크",
+      "딸기",
+      "전포"
+    ],
+    "memo": "크림치즈 수플레 팬케이크 유명 카페(양정점은 영업 종료)",
+    "address": "부산 부산진구 서전로47번길 27",
+    "kakaomap_url": "https://place.map.kakao.com/598039994",
+    "instagram_url": "https://www.instagram.com/p/B4_kgDlJ4Xu/",
+    "lat": 35.159102,
+    "lng": 129.064488,
+    "visited": false,
+    "added_at": "2026-11-16"
+  },
+  {
+    "id": "DHM2fR0SfBT-5",
+    "name": "잔향실",
+    "region": "부산",
+    "sub_region": "부산진 전포",
+    "category": "전시/문화",
+    "tags": [
+      "음악감상",
+      "전포",
+      "혼자",
+      "모음"
+    ],
+    "memo": "음악감상실, 14:00~22:00·수 휴무 · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 부산진구 동성로25번길 13 4층",
+    "kakaomap_url": "https://place.map.kakao.com/405979243",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.152651,
+    "lng": 129.067677,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DHM2fR0SfBT-8",
+    "name": "포셋",
+    "region": "부산",
+    "sub_region": "부산진 전포",
+    "category": "기타",
+    "tags": [
+      "편집샵",
+      "전포",
+      "모음"
+    ],
+    "memo": "전포 조용한 공간, 12:00~20:00·월 휴무 · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 부산진구 전포대로223번길 20",
+    "kakaomap_url": "https://place.map.kakao.com/1464120302",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.156705,
+    "lng": 129.064078,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "CY-Z0eUv2aZ",
+    "name": "서면·전포 맛집·카페 정리",
+    "region": "부산",
+    "sub_region": "부산진 전포동",
+    "category": "밥집",
+    "tags": [
+      "모음",
+      "서면",
+      "전포"
+    ],
+    "memo": "모음 게시물 — 서면·전포 맛집·카페·핫플 최종 정리(좌표는 전포동 기준)",
+    "address": "부산 부산진구 전포동",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CY-Z0eUv2aZ/",
+    "lat": 35.157256,
+    "lng": 129.071227,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "B-_if8ZnTz1",
+    "name": "부산 하단 핫플 모음",
+    "region": "부산",
+    "sub_region": "사하 하단동",
+    "category": "기타",
+    "tags": [
+      "모음",
+      "하단",
+      "핫플"
+    ],
+    "memo": "모음 게시물 — 부산 하단 핫플(좌표는 하단동 기준)",
+    "address": "부산 사하구 하단동",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/B-_if8ZnTz1/",
+    "lat": 35.114809,
+    "lng": 128.952594,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "DHM2fR0SfBT-2",
+    "name": "에어리커피",
+    "region": "부산",
+    "sub_region": "중구 중앙동",
+    "category": "카페",
+    "tags": [
+      "카페",
+      "중앙동",
+      "혼자",
+      "모음"
+    ],
+    "memo": "중앙대로 카페, 10:00~19:00 · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 중구 중앙대로 47",
+    "kakaomap_url": "https://place.map.kakao.com/181750948",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.101825,
+    "lng": 129.036185,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "CcjRKVthvtv",
+    "name": "부산 제주감성 카페 모음",
+    "region": "부산",
+    "sub_region": "해운대",
+    "category": "카페",
+    "tags": [
+      "모음",
+      "제주감성",
+      "해운대"
+    ],
+    "memo": "모음 게시물 — 부산에서 즐기는 제주감성 카페 10곳(상호 표기 없음, 좌표는 해운대구청 기준)",
+    "address": "부산 해운대구",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CcjRKVthvtv/",
+    "lat": 35.163067,
+    "lng": 129.163596,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "DHM2fR0SfBT-1",
+    "name": "타이드",
+    "region": "부산",
+    "sub_region": "해운대 달맞이",
+    "category": "카페",
+    "tags": [
+      "카페",
+      "달맞이",
+      "혼자",
+      "모음"
+    ],
+    "memo": "달맞이길 카페, 09:00~19:00·화 휴무 · 부산 내향인 스폿 8곳 모음",
+    "address": "부산 해운대구 달맞이길62번길 53",
+    "kakaomap_url": "https://place.map.kakao.com/1008941116",
+    "instagram_url": "https://www.instagram.com/p/DHM2fR0SfBT/",
+    "lat": 35.157566,
+    "lng": 129.172854,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "COmY2APlyDz",
+    "name": "상생라멘 해운대 본점",
+    "region": "부산",
+    "sub_region": "해운대 우동",
+    "category": "밥집",
+    "tags": [
+      "라멘",
+      "시장",
+      "해운대"
+    ],
+    "memo": "우2동 종합시장 안 라멘집, 한우대창·소유 라멘",
+    "address": "부산 해운대구 해운대로383번길 23",
+    "kakaomap_url": "https://place.map.kakao.com/2046606328",
+    "instagram_url": "https://www.instagram.com/p/COmY2APlyDz/",
+    "lat": 35.170431,
+    "lng": 129.138844,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "CDAfN9yh6NH",
+    "name": "강릉 핫플 10곳",
+    "region": "강원",
+    "sub_region": "강릉",
+    "category": "데이트",
+    "tags": [
+      "모음",
+      "강릉",
+      "핫플"
+    ],
+    "memo": "모음 게시물 — 경포해변·세인트존스·테라로사·카페기와 등 강릉 핫플 10곳(좌표는 강릉시청 기준)",
+    "address": "강원 강릉시",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CDAfN9yh6NH/",
+    "lat": 37.752113,
+    "lng": 128.875904,
+    "visited": false,
+    "added_at": "2026-11-18"
+  },
+  {
+    "id": "C2UkRN4pGbR",
+    "name": "강릉시립미술관 솔올관",
+    "region": "강원",
+    "sub_region": "강릉 교동",
+    "category": "전시/문화",
+    "tags": [
+      "미술관",
+      "리처드 마이어",
+      "강릉"
+    ],
+    "memo": "리처드 마이어 설계 공공미술관, 화~일 10:00~18:00",
+    "address": "강원 강릉시 원대로 45",
+    "kakaomap_url": "https://place.map.kakao.com/381751131",
+    "instagram_url": "https://www.instagram.com/p/C2UkRN4pGbR/",
+    "lat": 37.758756,
+    "lng": 128.879686,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "B7e6XRup7JX",
+    "name": "금산재칼국수 1호점",
+    "region": "경북",
+    "sub_region": "경주 충효동",
+    "category": "밥집",
+    "tags": [
+      "칼국수",
+      "경주"
+    ],
+    "memo": "경주 손칼국수, 영화 세트장 같은 분위기",
+    "address": "경북 경주시 흥무로 71",
+    "kakaomap_url": "https://place.map.kakao.com/20124432",
+    "instagram_url": "https://www.instagram.com/p/B7e6XRup7JX/",
+    "lat": 35.846516,
+    "lng": 129.194148,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "CExrN2fnHXi",
+    "name": "동피랑와팡",
+    "region": "경남",
+    "sub_region": "통영 동호동",
+    "category": "카페",
+    "tags": [
+      "와플",
+      "디저트",
+      "통영"
+    ],
+    "memo": "통영 인어공주 와플 디저트집, 10:00~17:00",
+    "address": "경남 통영시 동피랑길 36",
+    "kakaomap_url": "https://place.map.kakao.com/1517083389",
+    "instagram_url": "https://www.instagram.com/p/CExrN2fnHXi/",
+    "lat": 34.845111,
+    "lng": 128.428247,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "CURuM2qhwbL",
+    "name": "공방 하루반",
+    "region": "제주",
+    "sub_region": "제주 구좌 월정리",
+    "category": "공방",
+    "tags": [
+      "공방",
+      "월정리",
+      "원데이클래스"
+    ],
+    "memo": "월정리 공방:하루_반 — 공방 체험",
+    "address": "제주 제주시 구좌읍 월정7길 42",
+    "kakaomap_url": "",
+    "instagram_url": "https://www.instagram.com/p/CURuM2qhwbL/",
+    "lat": 33.554379,
+    "lng": 126.797297,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Bxgae7Ch4Qo",
+    "name": "카페더콘테나",
+    "region": "제주",
+    "sub_region": "제주 조천 와산리",
+    "category": "카페",
+    "tags": [
+      "감귤",
+      "컨테이너",
+      "포토존"
+    ],
+    "memo": "감귤 컨테이너 카페, 감귤밭 뷰",
+    "address": "제주 제주시 조천읍 함와로 513",
+    "kakaomap_url": "https://place.map.kakao.com/665658434",
+    "instagram_url": "https://www.instagram.com/p/Bxgae7Ch4Qo/",
+    "lat": 33.498083,
+    "lng": 126.678955,
+    "visited": false,
+    "added_at": "2026-11-24"
+  },
+  {
+    "id": "Bs-srKfgHzS",
+    "name": "제주동문시장",
+    "region": "제주",
+    "sub_region": "제주시 동문",
+    "category": "밥집",
+    "tags": [
+      "시장",
+      "해산물",
+      "딱새우"
+    ],
+    "memo": "제주 동문시장 — 해산물·딱새우",
+    "address": "제주 제주시 동문로 16",
+    "kakaomap_url": "https://place.map.kakao.com/1262338999",
+    "instagram_url": "https://www.instagram.com/p/Bs-srKfgHzS/",
+    "lat": 33.512784,
+    "lng": 126.528303,
     "visited": false,
     "added_at": "2026-11-24"
   }
